@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ee44bb77307e434cbf095b2ad303355, type: 3}
   m_Name: StartingRoom
   m_EditorClassIdentifier: 
-  name: Starting Room
-  description: "Despu\xE9s de mucho tiempo buscando, porf\xEDn lo encontraste, un
-    antiguo templo hacia la Diosa del mana, Miknit, ahora por un descuido o quizas
-    sea el destino una de las baldosas debajo tuya se rompi\xF3 haciendote caer a
-    una especie de mazmorra."
+  roomName: StartRoom
+  description: "Despu\xE9s de mucho tiempo buscando, por fin lo encontraste, un antiguo
+    templo hacia la Diosa del mana, Miknit, ahora por un descuido o quiz\xE1s sea
+    el destino una de las baldosas debajo tuya se rompi\xF3 haci\xE9ndote caer a
+    una especie de mazmorra, ahora sin manera de volver a subir tendras que encontrar
+    otra salida."

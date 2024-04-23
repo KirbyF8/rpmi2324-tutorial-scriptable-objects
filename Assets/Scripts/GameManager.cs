@@ -40,7 +40,9 @@ public class GameManager : MonoBehaviour
 
     private void DisplayText()
     { 
+
     displayText.text = string.Join(NEW_LINE, logList.ToArray());
+
     }
 
 }
