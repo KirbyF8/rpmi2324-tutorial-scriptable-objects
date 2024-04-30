@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ee44bb77307e434cbf095b2ad303355, type: 3}
+  m_Name: EmptyRoomSkeleton
+  m_EditorClassIdentifier: 
+  roomName: 
+  description: "La habitaci\xF3n esta completamente vacia excepto por un esqueleto
+    apoyado en una esquina, desenfundas tu espada nunca se sabe si el esqueleto se
+    va a levantar, examnias la habitaci\xF3n y no hay nada mas"
+  exits:
+  - direction: Este
+    description: La puerta por la que entraste, esta sigue abierta si no hay nada
+      mas deberias volver y seguir investigando.
+    room: {fileID: 11400000, guid: e6da52c7c87958945873801527bfbfff, type: 2}
+  - direction: Norte
+    description: 'Una puerta de manera cerrada aunque '
+    room: {fileID: 11400000, guid: d14a2d05951795f47b0c557d429af9f3, type: 2}

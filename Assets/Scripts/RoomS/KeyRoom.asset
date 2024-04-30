@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ee44bb77307e434cbf095b2ad303355, type: 3}
+  m_Name: KeyRoom
+  m_EditorClassIdentifier: 
+  roomName: KeyRoom
+  description: "Una vitrina en el centro con una llave de plata no hay nada mas puede
+    que sea una trampa aunque han pasado mas de 100 a\xF1os sin nadie por aqui dudas
+    que si hubiese una trampa siguiera activa"
+  exits:
+  - direction: Este
+    description: El pasillo de vuelta a la sala del boton, desde aqui puedes ver
+      perfectamente ese gran boton rojo
+    room: {fileID: 11400000, guid: d14a2d05951795f47b0c557d429af9f3, type: 2}

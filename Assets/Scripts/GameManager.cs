@@ -14,6 +14,13 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] TextMeshProUGUI displayText;
 
+    [SerializeField] private InputActionSO[] inputActionsArray;
+
+    private void Start()
+    {
+        DisplayRoomText();
+    }
+
     private void Awake()
     {
         if (Instance != null)
@@ -23,13 +30,19 @@ public class GameManager : MonoBehaviour
 
         Instance = this;
 
-
+    }
+    public InputActionSO[] GetInputActions()
+    {
+        return inputActionsArray;
     }
 
-    private void DisplayRoomText()
+    public void DisplayRoomText()
     {
-        string fullText = RoomManager.Instance.currentRoom.description + NEW_LINE;
-        UpdateLogList(fullText);
+        ClearAllCollectionsForNewRoom();
+
+        string roomDescription = RoomManager.Instance.currentRoom.description + NEW_LINE;
+        string roomExitDescriptions = string.Join(NEW_LINE, RoomManager.Instance.GetExitDescriptionsListInRoom());
+        UpdateLogList(roomDescription + roomExitDescriptions);
     }
 
     public void UpdateLogList(string stringToAdd)
@@ -45,4 +58,8 @@ public class GameManager : MonoBehaviour
 
     }
 
+    private void ClearAllCollectionsForNewRoom()
+    {
+        RoomManager.Instance.ClearExits();
+    }
 }

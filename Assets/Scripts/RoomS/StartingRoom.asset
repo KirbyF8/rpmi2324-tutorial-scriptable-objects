@@ -15,6 +15,12 @@ MonoBehaviour:
   roomName: StartRoom
   description: "Despu\xE9s de mucho tiempo buscando, por fin lo encontraste, un antiguo
     templo hacia la Diosa del mana, Miknit, ahora por un descuido o quiz\xE1s sea
-    el destino una de las baldosas debajo tuya se rompi\xF3 haci\xE9ndote caer a
+    el destino una de las baldosas debajo tuya se rompieron haci\xE9ndote caer a
     una especie de mazmorra, ahora sin manera de volver a subir tendras que encontrar
     otra salida."
+  exits:
+  - direction: norte
+    description: "El \xFAnico camino que ves es una puerta delante tuya, la puerta
+      parece que se va a caer pues parece que tiene unos 200 a\xF1os, aunque no te
+      queda otro sitio por donde ir asi que deberias intentar abrirla."
+    room: {fileID: 11400000, guid: e6da52c7c87958945873801527bfbfff, type: 2}

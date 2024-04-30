@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ee44bb77307e434cbf095b2ad303355, type: 3}
+  m_Name: CenterRoom
+  m_EditorClassIdentifier: 
+  roomName: Center Room
+  description: 
+  exits:
+  - direction: Sur
+    description: "La puerta que lleva a la habitaci\xF3n la cual ca\xEDste, sigues
+      sin saber como no se a roto, podrias volver a esa sala y ponerte a llorar por
+      no encontrar una salida o buscar algo en el resto de las salas."
+    room: {fileID: 11400000, guid: 16f939c3a9c77fa4ba389c184482e117, type: 2}
+  - direction: Norte
+    description: Una Puerta enorme al norte de la sala, con solo verla sabes que
+      no podras moverla, acercandote un poco puedes ver una cerradura.
+    room: {fileID: 11400000, guid: 548bd272f01da5a41b9fef91da77b941, type: 2}
+  - direction: Este
+    description: Al este hay un pasillo bastante largo el cual lleva a una sala la
+      cual no puedes ver que hay en esta
+    room: {fileID: 11400000, guid: baca532dbba7bfd4a9ec8faa4e29213a, type: 2}
+  - direction: Oeste
+    description: "Al Oeste una puerta de madera abierta, no sabes si fue abierta
+      hace poco o quien fuera la \xFAltima persona que estubo aqu\xED la dejo as\xED,
+      puedes ver a traves de la rendija una habitaci\xF3n vacia, aunque si entraras
+      podrias ver en los puntos ciegos."
+    room: {fileID: 11400000, guid: f2253a6bda0c55c4eb073c2f6d914195, type: 2}

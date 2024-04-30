@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ee44bb77307e434cbf095b2ad303355, type: 3}
+  m_Name: ManaRoom
+  m_EditorClassIdentifier: 
+  roomName: Mana Room
+  description: "Una fuente con una estatua de Miknit justo en el centro al acercarte
+    un poco notas al instante que eso no era agua si no mana, el mana m\xE1s puro
+    que has visto en toda tu vida"
+  exits:
+  - direction: Este
+    description: Al este un pasillo bastante corto desde aqui puedes ver perfectamente
+      la habitacion al final de este, la cual tiene dos puertas pero esta completamente
+      vacia.
+    room: {fileID: 0}
+  - direction: Oeste
+    description: Al oeste es por donde has venido desde aqui puedes ver la puerta
+      de metal
+    room: {fileID: 0}
