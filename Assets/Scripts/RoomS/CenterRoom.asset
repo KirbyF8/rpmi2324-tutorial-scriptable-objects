@@ -13,16 +13,18 @@ MonoBehaviour:
   m_Name: CenterRoom
   m_EditorClassIdentifier: 
   roomName: Center Room
-  description: 
+  description: "Una sala la cual parece ser el centro de este templo, un candelabro
+    esta colgando del techo, puedes sentir mana de el fuego de las velas de este,
+    puedes ver las 4 salidas de esta habitaci\xF3n"
   exits:
   - direction: Sur
-    description: "La puerta que lleva a la habitaci\xF3n la cual ca\xEDste, sigues
-      sin saber como no se a roto, podrias volver a esa sala y ponerte a llorar por
-      no encontrar una salida o buscar algo en el resto de las salas."
+    description: "Al sur esta la puerta que lleva a la habitaci\xF3n la cual ca\xEDste,
+      sigues sin saber como no se a roto, podrias volver a esa sala y ponerte a llorar
+      por no encontrar una salida o buscar algo en el resto de las salas."
     room: {fileID: 11400000, guid: 16f939c3a9c77fa4ba389c184482e117, type: 2}
   - direction: Norte
-    description: Una Puerta enorme al norte de la sala, con solo verla sabes que
-      no podras moverla, acercandote un poco puedes ver una cerradura.
+    description: Al norte una Puerta enorme al norte de la sala, con solo verla sabes
+      que no podras moverla, acercandote un poco puedes ver una cerradura.
     room: {fileID: 11400000, guid: 548bd272f01da5a41b9fef91da77b941, type: 2}
   - direction: Este
     description: Al este hay un pasillo bastante largo el cual lleva a una sala la
@@ -34,3 +36,4 @@ MonoBehaviour:
       puedes ver a traves de la rendija una habitaci\xF3n vacia, aunque si entraras
       podrias ver en los puntos ciegos."
     room: {fileID: 11400000, guid: f2253a6bda0c55c4eb073c2f6d914195, type: 2}
+  items: []

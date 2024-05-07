@@ -15,7 +15,7 @@ MonoBehaviour:
   roomName: 
   description: "La habitaci\xF3n esta completamente vacia excepto por un esqueleto
     apoyado en una esquina, desenfundas tu espada nunca se sabe si el esqueleto se
-    va a levantar, examnias la habitaci\xF3n y no hay nada mas"
+    va a levantar, examinas la habitaci\xF3n y no hay nada mas"
   exits:
   - direction: Este
     description: La puerta por la que entraste, esta sigue abierta si no hay nada
@@ -24,3 +24,4 @@ MonoBehaviour:
   - direction: Norte
     description: 'Una puerta de manera cerrada aunque '
     room: {fileID: 11400000, guid: d14a2d05951795f47b0c557d429af9f3, type: 2}
+  items: []

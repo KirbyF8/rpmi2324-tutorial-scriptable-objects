@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66dcb5d03e243b749a76ed37f40097d8, type: 3}
+  m_Name: Key
+  m_EditorClassIdentifier: 
+  itemName: llave
+  description: Una llave de plata dentro de la vitrina
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 4ce6beaa538b5b743b7ba3d242c533c6, type: 2}
+    responseDescription: La llave sigue en perfecto estado, ahora puedes ver la forma
+      de pluma de la parte de atras de esta
+  - inputAction: {fileID: 11400000, guid: 56378bb2da09bcd4a9ec7754bbe65e41, type: 2}
+    responseDescription: Has cogido la llave y parece que no se ha activado ninguna
+      trampa

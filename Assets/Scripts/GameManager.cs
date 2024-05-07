@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance { get; private set; }
 
     public const string NEW_LINE = "\n";
+    public const string ASTEISK = "*";
+    public const string SPACE = " ";
 
     private List<string> logList = new List<string>();
 
@@ -42,7 +44,9 @@ public class GameManager : MonoBehaviour
 
         string roomDescription = RoomManager.Instance.currentRoom.description + NEW_LINE;
         string roomExitDescriptions = string.Join(NEW_LINE, RoomManager.Instance.GetExitDescriptionsListInRoom());
-        UpdateLogList(roomDescription + roomExitDescriptions);
+        string itemDescriptions = string.Join(NEW_LINE, RoomManager.Instance.GetItemDescriptionsInRoom());
+
+        UpdateLogList(roomDescription + roomExitDescriptions + itemDescriptions);
     }
 
     public void UpdateLogList(string stringToAdd)
@@ -61,5 +65,11 @@ public class GameManager : MonoBehaviour
     private void ClearAllCollectionsForNewRoom()
     {
         RoomManager.Instance.ClearExits();
+        RoomManager.Instance.ClearItems();
+    }
+
+    public void DisplayInventory()
+    {
+        string message = "Hello";
     }
 }
